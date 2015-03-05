@@ -10,10 +10,9 @@
 		80C7DCB41AA85EE4002C3D53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C7DCB31AA85EE4002C3D53 /* main.m */; };
 		80C7DCB71AA85EE4002C3D53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C7DCB61AA85EE4002C3D53 /* AppDelegate.m */; };
 		80C7DCBA1AA85EE4002C3D53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C7DCB91AA85EE4002C3D53 /* ViewController.m */; };
-		80C7DCBD1AA85EE4002C3D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C7DCBB1AA85EE4002C3D53 /* Main.storyboard */; };
 		80C7DCBF1AA85EE4002C3D53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C7DCBE1AA85EE4002C3D53 /* Images.xcassets */; };
-		80C7DCC21AA85EE4002C3D53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80C7DCC01AA85EE4002C3D53 /* LaunchScreen.xib */; };
 		80C7DCCE1AA85EE4002C3D53 /* DownloadHTMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C7DCCD1AA85EE4002C3D53 /* DownloadHTMLTests.m */; };
+		80C7DCD91AA85F4A002C3D53 /* DownloadHTMLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C7DCD81AA85F4A002C3D53 /* DownloadHTMLManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +33,12 @@
 		80C7DCB61AA85EE4002C3D53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		80C7DCB81AA85EE4002C3D53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		80C7DCB91AA85EE4002C3D53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		80C7DCBC1AA85EE4002C3D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80C7DCBE1AA85EE4002C3D53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		80C7DCC11AA85EE4002C3D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		80C7DCC71AA85EE4002C3D53 /* DownloadHTMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadHTMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C7DCCC1AA85EE4002C3D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80C7DCCD1AA85EE4002C3D53 /* DownloadHTMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadHTMLTests.m; sourceTree = "<group>"; };
+		80C7DCD71AA85F4A002C3D53 /* DownloadHTMLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadHTMLManager.h; sourceTree = "<group>"; };
+		80C7DCD81AA85F4A002C3D53 /* DownloadHTMLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadHTMLManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +84,9 @@
 				80C7DCB61AA85EE4002C3D53 /* AppDelegate.m */,
 				80C7DCB81AA85EE4002C3D53 /* ViewController.h */,
 				80C7DCB91AA85EE4002C3D53 /* ViewController.m */,
-				80C7DCBB1AA85EE4002C3D53 /* Main.storyboard */,
+				80C7DCD71AA85F4A002C3D53 /* DownloadHTMLManager.h */,
+				80C7DCD81AA85F4A002C3D53 /* DownloadHTMLManager.m */,
 				80C7DCBE1AA85EE4002C3D53 /* Images.xcassets */,
-				80C7DCC01AA85EE4002C3D53 /* LaunchScreen.xib */,
 				80C7DCB11AA85EE4002C3D53 /* Supporting Files */,
 			);
 			path = DownloadHTML;
@@ -199,8 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C7DCBD1AA85EE4002C3D53 /* Main.storyboard in Resources */,
-				80C7DCC21AA85EE4002C3D53 /* LaunchScreen.xib in Resources */,
 				80C7DCBF1AA85EE4002C3D53 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C7DCD91AA85F4A002C3D53 /* DownloadHTMLManager.m in Sources */,
 				80C7DCBA1AA85EE4002C3D53 /* ViewController.m in Sources */,
 				80C7DCB71AA85EE4002C3D53 /* AppDelegate.m in Sources */,
 				80C7DCB41AA85EE4002C3D53 /* main.m in Sources */,
@@ -242,25 +240,6 @@
 			targetProxy = 80C7DCC81AA85EE4002C3D53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		80C7DCBB1AA85EE4002C3D53 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80C7DCBC1AA85EE4002C3D53 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		80C7DCC01AA85EE4002C3D53 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80C7DCC11AA85EE4002C3D53 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		80C7DCCF1AA85EE4002C3D53 /* Debug */ = {

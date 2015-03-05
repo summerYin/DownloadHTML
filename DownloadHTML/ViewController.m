@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "DownloadHTMLManager.h"
 @interface ViewController ()
 
 @end
